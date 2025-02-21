@@ -1,0 +1,157 @@
+[21-Feb-2025 01:47:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'ojs'@'localhost' (using password: YES) in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(45): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1181): call_user_func()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1217): Illuminate\Database\Connection->getPdo()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(486): Illuminate\Database\Connection->getReadPdo()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(443): Illuminate\Database\Connection->getPdoForSelect()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(753): Illuminate\Database\Connection->Illuminate\Database\{closure}()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(720): Illuminate\Database\Connection->runQueryCallback()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\Database\Connection->run()
+#12 [internal function]: Illuminate\Database\Connection->cursor()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/context/ContextDAO.php(99): Generator->current()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(194): PKP\context\ContextDAO->getByPath()
+#15 [internal function]: PKP\core\PKPRouter->getContext()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRequest.php(877): call_user_func_array()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRequest.php(754): PKP\core\PKPRequest->_delegateToRouter()
+#18 /home/zts5eyzr4hri/public_html/revistasrelatic.org/classes/core/Request.php(41): PKP\core\PKPRequest->getContext()
+#19 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(165): APP\core\Request->getContext()
+#20 /home/zts5eyzr4hri/public_html/revistasrelatic.org/classes/template/TemplateManager.php(40): PKP\template\PKPTemplateManager->initialize()
+#21 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1441): APP\template\TemplateManager->initialize()
+#22 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/Plugin.php(403): PKP\template\PKPTemplateManager::getManager()
+#23 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/Plugin.php(137): PKP\plugins\Plugin->_registerTemplateResource()
+#24 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/LazyLoadPlugin.php(34): PKP\plugins\Plugin->register()
+#25 /home/zts5eyzr4hri/public_html/revistasrelatic.org/plugins/generic/htmlArticleGalley/HtmlArticleGalleyPlugin.php(36): PKP\plugins\LazyLoadPlugin->register()
+#26 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(76): APP\plugins\generic\htmlArticleGalley\HtmlArticleGalleyPlugin->register()
+#27 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(121): PKP\plugins\PluginRegistry::register()
+#28 [internal function]: PKP\plugins\PluginRegistry::PKP\plugins\{closure}()
+#29 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(121): array_walk_recursive()
+#30 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(155): PKP\plugins\PluginRegistry::loadCategory()
+#31 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#32 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#33 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[HY000] [1045] Access denied for user 'ojs'@'localhost' (using password: YES) (SQL: SELECT * FROM journals WHERE path = home) in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php:760
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(720): Illuminate\Database\Connection->runQueryCallback()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\Database\Connection->run()
+#2 [internal function]: Illuminate\Database\Connection->cursor()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/context/ContextDAO.php(99): Generator->current()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(194): PKP\context\ContextDAO->getByPath()
+#5 [internal function]: PKP\core\PKPRouter->getContext()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRequest.php(877): call_user_func_array()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRequest.php(754): PKP\core\PKPRequest->_delegateToRouter()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/classes/core/Request.php(41): PKP\core\PKPRequest->getContext()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(165): APP\core\Request->getContext()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/classes/template/TemplateManager.php(40): PKP\template\PKPTemplateManager->initialize()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1441): APP\template\TemplateManager->initialize()
+#12 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/Plugin.php(403): PKP\template\PKPTemplateManager::getManager()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/Plugin.php(137): PKP\plugins\Plugin->_registerTemplateResource()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/LazyLoadPlugin.php(34): PKP\plugins\Plugin->register()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/plugins/generic/htmlArticleGalley/HtmlArticleGalleyPlugin.php(36): PKP\plugins\LazyLoadPlugin->register()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(76): APP\plugins\generic\htmlArticleGalley\HtmlArticleGalleyPlugin->register()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(121): PKP\plugins\PluginRegistry::register()
+#18 [internal function]: PKP\plugins\PluginRegistry::PKP\plugins\{closure}()
+#19 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(121): array_walk_recursive()
+#20 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(155): PKP\plugins\PluginRegistry::loadCategory()
+#21 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#22 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#23 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 760
+[21-Feb-2025 01:47:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'ojs'@'localhost' (using password: YES) in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(45): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1181): call_user_func()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1217): Illuminate\Database\Connection->getPdo()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(486): Illuminate\Database\Connection->getReadPdo()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(443): Illuminate\Database\Connection->getPdoForSelect()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(753): Illuminate\Database\Connection->Illuminate\Database\{closure}()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(720): Illuminate\Database\Connection->runQueryCallback()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\Database\Connection->run()
+#12 [internal function]: Illuminate\Database\Connection->cursor()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/context/ContextDAO.php(99): Generator->current()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(194): PKP\context\ContextDAO->getByPath()
+#15 [internal function]: PKP\core\PKPRouter->getContext()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRequest.php(877): call_user_func_array()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRequest.php(754): PKP\core\PKPRequest->_delegateToRouter()
+#18 /home/zts5eyzr4hri/public_html/revistasrelatic.org/classes/core/Request.php(41): PKP\core\PKPRequest->getContext()
+#19 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(165): APP\core\Request->getContext()
+#20 /home/zts5eyzr4hri/public_html/revistasrelatic.org/classes/template/TemplateManager.php(40): PKP\template\PKPTemplateManager->initialize()
+#21 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1441): APP\template\TemplateManager->initialize()
+#22 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/Plugin.php(403): PKP\template\PKPTemplateManager::getManager()
+#23 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/Plugin.php(137): PKP\plugins\Plugin->_registerTemplateResource()
+#24 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/LazyLoadPlugin.php(34): PKP\plugins\Plugin->register()
+#25 /home/zts5eyzr4hri/public_html/revistasrelatic.org/plugins/generic/htmlArticleGalley/HtmlArticleGalleyPlugin.php(36): PKP\plugins\LazyLoadPlugin->register()
+#26 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(76): APP\plugins\generic\htmlArticleGalley\HtmlArticleGalleyPlugin->register()
+#27 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(121): PKP\plugins\PluginRegistry::register()
+#28 [internal function]: PKP\plugins\PluginRegistry::PKP\plugins\{closure}()
+#29 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(121): array_walk_recursive()
+#30 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(155): PKP\plugins\PluginRegistry::loadCategory()
+#31 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#32 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#33 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[HY000] [1045] Access denied for user 'ojs'@'localhost' (using password: YES) (SQL: SELECT * FROM journals WHERE path = home) in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php:760
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(720): Illuminate\Database\Connection->runQueryCallback()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\Database\Connection->run()
+#2 [internal function]: Illuminate\Database\Connection->cursor()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/context/ContextDAO.php(99): Generator->current()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(194): PKP\context\ContextDAO->getByPath()
+#5 [internal function]: PKP\core\PKPRouter->getContext()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRequest.php(877): call_user_func_array()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRequest.php(754): PKP\core\PKPRequest->_delegateToRouter()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/classes/core/Request.php(41): PKP\core\PKPRequest->getContext()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(165): APP\core\Request->getContext()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/classes/template/TemplateManager.php(40): PKP\template\PKPTemplateManager->initialize()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1441): APP\template\TemplateManager->initialize()
+#12 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/Plugin.php(403): PKP\template\PKPTemplateManager::getManager()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/Plugin.php(137): PKP\plugins\Plugin->_registerTemplateResource()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/LazyLoadPlugin.php(34): PKP\plugins\Plugin->register()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/plugins/generic/htmlArticleGalley/HtmlArticleGalleyPlugin.php(36): PKP\plugins\LazyLoadPlugin->register()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(76): APP\plugins\generic\htmlArticleGalley\HtmlArticleGalleyPlugin->register()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(121): PKP\plugins\PluginRegistry::register()
+#18 [internal function]: PKP\plugins\PluginRegistry::PKP\plugins\{closure}()
+#19 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/plugins/PluginRegistry.php(121): array_walk_recursive()
+#20 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(155): PKP\plugins\PluginRegistry::loadCategory()
+#21 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#22 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#23 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 760
+[21-Feb-2025 03:45:18 UTC] Server host "revistasrelatic.org" not allowed!
+[21-Feb-2025 03:45:18 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 04:09:08 UTC] Server host "revistasrelatic.org" not allowed!
+[21-Feb-2025 04:09:08 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 04:21:42 UTC] Server host "revistasrelatic.org" not allowed!
+[21-Feb-2025 04:21:42 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 06:57:03 UTC] Server host "revistasrelatic.org" not allowed!
+[21-Feb-2025 06:57:03 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 09:43:59 UTC] Server host "revistasrelatic.org" not allowed!
+[21-Feb-2025 09:43:59 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 09:49:50 UTC] Server host "revistasrelatic.org" not allowed!
+[21-Feb-2025 09:49:50 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 10:11:21 UTC] Server host "mail.revistasrelatic.org" not allowed!
+[21-Feb-2025 10:11:21 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 10:11:22 UTC] Server host "mail.revistasrelatic.org" not allowed!
+[21-Feb-2025 10:11:22 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 10:53:40 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'app:frontend/components/searchForm_simple.tpl' in 'app:frontend/components/header.tpl' <-- 
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php on line 196
+[21-Feb-2025 11:07:19 UTC] Server host "revistasrelatic.org" not allowed!
+[21-Feb-2025 11:07:19 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 11:32:27 UTC] ojs2: 404 Not Found
+[21-Feb-2025 12:06:22 UTC] PHP Deprecated:  Using php-function "in_array" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier. in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_compile_private_modifier.php on line 112
+[21-Feb-2025 12:06:22 UTC] PHP Deprecated:  Using php-function "in_array" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier. in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_compile_private_modifier.php on line 112
+[21-Feb-2025 12:26:23 UTC] Server host "revistasrelatic.org" not allowed!
+[21-Feb-2025 12:26:23 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 13:10:43 UTC] Server host "revistasrelatic.org" not allowed!
+[21-Feb-2025 13:10:43 UTC] ojs2: 400 Bad Request
+[21-Feb-2025 13:11:18 UTC] ojs2: 404 Not Found
+[21-Feb-2025 14:25:25 UTC] ojs2: 404 Not Found

@@ -1,0 +1,9 @@
+<?php $exp = 1771641947; $val = array (
+  'application' => 'bootstrap3',
+  'class' => 'BootstrapThreeThemePlugin',
+  'type' => 'plugins.themes',
+  'release' => '3.4.0.3',
+  'date' => '2024-12-11',
+  'lazy-load' => 1,
+  'sitewide' => 0,
+);
