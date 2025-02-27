@@ -81,7 +81,7 @@
   margin: 0;
   .box-shadow(none);
 
-  > li > a {
+  >li>a {
     font-size: @font-size-small;
   }
 }
@@ -113,15 +113,15 @@ table,
     color: @text-muted;
   }
 
-  > thead > tr > th,
-  > tbody > tr > th,
-  > tfoot > tr > th,
-  > thead > tr > td,
-  > tbody > tr > td,
-  > tfoot > tr > td {
+  >thead>tr>th,
+  >tbody>tr>th,
+  >tfoot>tr>th,
+  >thead>tr>td,
+  >tbody>tr>td,
+  >tfoot>tr>td {
     border-color: transparent;
   }
- }
+}
 
 // Forms ======================================================================
 
@@ -143,6 +143,7 @@ label,
 }
 
 .has-warning {
+
   .help-block,
   .control-label,
   .radio,
@@ -168,6 +169,7 @@ label,
 }
 
 .has-error {
+
   .help-block,
   .control-label,
   .radio,
@@ -193,6 +195,7 @@ label,
 }
 
 .has-success {
+
   .help-block,
   .control-label,
   .radio,
@@ -232,21 +235,22 @@ label,
 // Navs =======================================================================
 
 .nav {
-  .open > a,
-  .open > a:hover,
-  .open > a:focus {
+
+  .open>a,
+  .open>a:hover,
+  .open>a:focus {
     border-color: transparent;
   }
 }
 
 .nav-tabs {
-  > li > a {
+  >li>a {
     color: @text-color;
   }
 }
 
 .nav-pills {
-  > li > a {
+  >li>a {
     color: @text-color;
   }
 }
@@ -330,7 +334,7 @@ a.list-group-item {
 .panel {
   border: none;
 
-  &-default > .panel-heading {
+  &-default>.panel-heading {
     background-color: @table-bg-hover;
     color: @text-color;
   }

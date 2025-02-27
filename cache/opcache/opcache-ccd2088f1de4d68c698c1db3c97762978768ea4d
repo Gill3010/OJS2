@@ -1,0 +1,22 @@
+<?php $exp = 1772114497; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.crossrefReferenceLinking.displayName' => 'Vinculación de referencias Crossref',
+      'plugins.generic.crossrefReferenceLinking.description' => 'Este módulo envía las citas del artículo a Crossref en tanto es señalado un DOI, así muestra automáticamente los DOIs de las referencias encontradas en la base de datos de Crossref.',
+      'plugins.generic.crossrefReferenceLinking.description.long' => 'Este módulo agregará automáticamente las referencias extraídas del artículo al registro DOI con Crossref. Crossref verificará automáticamente si se puede encontrar algún DOI para las referencias enviadas. Poco después de eso, puede usar el módulo para verificar las referencias DOI encontradas, ya sea automáticamente (si la opción apropiada está establecida en el módulo de exportación Crossref) o manualmente en la pestaña "Referencias" de envío de metadatos.',
+      'plugins.generic.crossrefReferenceLinking.description.note' => 'Si cambia las referencias de un artículo después de registrar el DOI, deberá volver a registrar el DOI del artículo y verificar nuevamente los DOIs de las referencias del artículo.',
+      'plugins.generic.crossrefReferenceLinking.description.requirements' => 'Este módulo requiere que se asigne un artículo a un DOI Crossref y éste debe depositarse en Crossref desde OJS. Se pueden proporcionar las referencias del artículo en la sección Metadatos en el flujo de trabajo de los envíos.',
+      'plugins.generic.crossrefReferenceLinking.settings.form.crossrefSettings' => 'Configuración del módulo de exportación XML Crossref',
+      'plugins.generic.crossrefReferenceLinking.settings.form.crossrefSettings.required' => 'El nombre de usuario y contraseña Crossref deben estar configurados:',
+      'plugins.generic.crossrefReferenceLinking.settings.form.submissionSettings' => 'Configuración de metadatos de envío',
+      'plugins.generic.crossrefReferenceLinking.settings.form.submissionSettings.required' => 'Los metadatos de referencias de envío deben estar habilitados:',
+      'plugins.generic.crossrefReferenceLinking.settings.form.requirements.ok' => 'Ya está todo listo!',
+      'plugins.generic.crossrefReferenceLinking.citationsFormActionName' => 'Verificar DOIs en Crossref',
+      'plugins.generic.crossrefReferenceLinking.senderTask.name' => 'Tarea de registro automático CrossrefReferenceLinking',
+    ),
+  ),
+);

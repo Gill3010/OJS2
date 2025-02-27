@@ -9,7 +9,7 @@
 	height: @nav-menu-height;
 	border: 0;
 	background: none;
-	box-shadow: 1px 0 0 rgba(255,255,255,0.2), -1px 0 0 rgba(255,255,255,0.2);
+	box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2), -1px 0 0 rgba(255, 255, 255, 0.2);
 	z-index: 999;
 
 	&:focus {
@@ -17,7 +17,7 @@
 		box-shadow: none;
 	}
 
-	> span {
+	>span {
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -49,7 +49,7 @@
 }
 
 .pkp_site_nav_toggle--transform {
-	> span {
+	>span {
 
 		border-bottom: 0;
 		overflow: visible;
@@ -64,17 +64,49 @@
 			top: 14px;
 			transform: rotate(405deg) translateY(-3px) translateX(-4px);
 			-webkit-transform: rotate(405deg) translateY(-3px) translateX(-4px);
+
 		}
 	}
 }
 
 // Show/hide the nav  menu
 .pkp_site_nav_menu {
+	background-color: #fff;
+	color: #000;
 	display: none;
+
 }
 
+/* Color de los enlaces del menú principal */
+.pkp_site_nav_menu a {
+	color: #2d2e77 !important;
+	/* Asegura que los enlaces sean de color negro */
+	text-decoration: none;
+	/* Elimina el subrayado si lo deseas */
+}
+
+/* Color de los enlaces al pasar el mouse sobre ellos */
+.pkp_site_nav_menu a:hover {
+	color: #FF5722;
+	/* Cambia este color si prefieres otro para el hover */
+}
+
+/* Para pantallas grandes (escritorio) */
+@media (min-width: @screen-desktop) {
+	.pkp_site_nav_menu {
+		display: block;
+		/* Asegura que el menú esté visible en escritorio */
+	}
+
+	.pkp_site_nav_menu a {
+		color: #2d2e77 !important;
+		/* Aplica color negro a los enlaces en escritorio */
+	}
+}
+
+
 .pkp_site_nav_menu--isOpen {
-  display: block;
+	display: block;
 }
 
 body.navIsOpen {
@@ -88,7 +120,7 @@ body.navIsOpen {
 	}
 
 	.siteHeader__navToggleIcon {
-		> span {
+		>span {
 			&:first-child {
 				transform: rotate(45deg);
 				top: 18px;

@@ -1,0 +1,120 @@
+/* Personalización del encabezado */
+.pkp_structure_head {
+    background: #0D47A1;
+    /* Azul oscuro para el header */
+    color: white;
+    /* Texto blanco */
+    padding: 20px;
+    /* Espaciado interno */
+    text-align: center;
+    /* Centrado de contenido */
+}
+
+/* Personalización del pie de página */
+.pkp_structure_footer {
+    background: #0D47A1;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    /* Asegura que el footer ocupe todo el ancho */
+    box-sizing: border-box;
+    /* El padding no se suma al tamaño total */
+}
+
+
+/* Ajustes adicionales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    /* Fondo blanco para el cuerpo */
+    color: #333;
+    /* Color de texto gris oscuro */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    /* Altura de línea para mayor legibilidad */
+}
+
+/* Estilo para los encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arial', sans-serif;
+    color: #0D47A1;
+    /* Azul oscuro para los encabezados */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.1em;
+    /* Un poco más grande para mejor legibilidad */
+    margin-bottom: 15px;
+    line-height: 1.6;
+    /* Mejor separación de líneas */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #0D47A1;
+    /* Azul oscuro para los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFEB3B;
+    /* Amarillo brillante al pasar el ratón */
+    text-decoration: underline;
+}
+
+/* Estilo para listas */
+ul,
+ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+/* Estilo para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #0D47A1;
+    /* Azul oscuro para las cabeceras de las tablas */
+    color: white;
+}
+
+/* Estilo para botones */
+button {
+    background-color: #0D47A1;
+    /* Azul oscuro para los botones */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFEB3B;
+    /* Amarillo brillante al pasar el ratón */
+}
