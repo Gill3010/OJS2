@@ -1,7 +1,7 @@
 <?php return array (
-  'enabled' => true,
-  'displayPage' => 'homepage',
   'displayItems' => true,
-  'recentItems' => 30,
+  'displayPage' => 'homepage',
+  'enabled' => true,
   'includeIdentifiers' => false,
+  'recentItems' => 30,
 );

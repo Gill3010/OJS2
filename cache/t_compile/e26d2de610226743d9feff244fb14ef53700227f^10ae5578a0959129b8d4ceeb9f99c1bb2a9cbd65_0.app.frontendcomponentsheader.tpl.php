@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-02-27 13:25:40
+/* Smarty version 4.3.1, created on 2025-03-02 11:32:46
   from 'app:frontendcomponentsheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67c067d4d24ca1_40682939',
+  'unifunc' => 'content_67c441dec0aa37_11314170',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65' => 
     array (
       0 => 'app:frontendcomponentsheader.tpl',
-      1 => 1732910776,
+      1 => 1740915151,
       2 => 'app',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/skipLinks.tpl' => 1,
   ),
 ),false)) {
-function content_67c067d4d24ca1_40682939 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c441dec0aa37_11314170 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 $_smarty_tpl->_assignInScope('showingLogo', true);
 if (!$_smarty_tpl->tpl_vars['displayPageHeaderLogo']->value) {
@@ -129,6 +129,39 @@ if ($_smarty_tpl->tpl_vars['showingLogo']->value) {?> has_site_logo<?php }?>" di
 					</div>
 				</nav>
 			</div><!-- .pkp_head_wrapper -->
+			<?php if (!$_smarty_tpl->tpl_vars['currentContext']->value && $_smarty_tpl->tpl_vars['requestedPage']->value == 'index') {?>
+    <div class="custom-slider-container">
+        <div class="custom-slider" id="customSlider">
+            <img src="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/public/site/slide1.png" alt="slider1" class="custom-slide">
+            <img src="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/public/site/slide2.png" alt="slider2" class="custom-slide">
+            <img src="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/public/site/slide3.png" alt="slider3" class="custom-slide">
+            <img src="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/public/site/slide4.png" alt="slider4" class="custom-slide">
+        </div>
+
+        <!-- Botones de navegación -->
+        <button class="custom-prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="custom-next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+        <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/public/site/slider.css">
+    <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/public/site/slider.js" defer><?php echo '</script'; ?>
+>
+<?php }
+if ($_smarty_tpl->tpl_vars['currentContext']->value && $_smarty_tpl->tpl_vars['currentContext']->value->getId() == 9) {?>      <!-- Banner personalizado para la revista -->
+    <div class="custom-banner-revista">
+        <img src="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/public/images/bannerevista1.png" alt="Banner de la revista" class="banner-image">
+    </div>
+<?php }?>
+
+
 		</header><!-- .pkp_structure_head -->
 
 				<?php if ($_smarty_tpl->tpl_vars['isFullWidth']->value) {?>

@@ -91,6 +91,32 @@
 					</div>
 				</nav>
 			</div><!-- .pkp_head_wrapper -->
+			{if !$currentContext && $requestedPage == 'index'}
+    <div class="custom-slider-container">
+        <div class="custom-slider" id="customSlider">
+            <img src="{$baseUrl}/public/site/slide1.png" alt="slider1" class="custom-slide">
+            <img src="{$baseUrl}/public/site/slide2.png" alt="slider2" class="custom-slide">
+            <img src="{$baseUrl}/public/site/slide3.png" alt="slider3" class="custom-slide">
+            <img src="{$baseUrl}/public/site/slide4.png" alt="slider4" class="custom-slide">
+        </div>
+
+        <!-- Botones de navegación -->
+        <button class="custom-prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="custom-next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    {* Enlaza los archivos CSS y JS *}
+    <link rel="stylesheet" href="{$baseUrl}/public/site/slider.css">
+    <script src="{$baseUrl}/public/site/slider.js" defer></script>
+{/if}
+{if $currentContext && $currentContext->getId() == 9}  {* 9 es el ID de la revista, cámbialo si es necesario *}
+    <!-- Banner personalizado para la revista -->
+    <div class="custom-banner-revista">
+        <img src="{$baseUrl}/public/images/bannerevista1.png" alt="Banner de la revista" class="banner-image">
+    </div>
+{/if}
+
+
 		</header><!-- .pkp_structure_head -->
 
 		{* Wrapper for page content and sidebars *}

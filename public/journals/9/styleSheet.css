@@ -1,6 +1,6 @@
 /* Personalización del encabezado */
 .pkp_structure_head {
-    background: #0D47A1;
+    background: #003366;
     /* Azul oscuro para el header */
     color: white;
     /* Texto blanco */
@@ -12,7 +12,7 @@
 
 /* Personalización del pie de página */
 .pkp_structure_footer {
-    background: #0D47A1;
+    background: #003366;
     color: white;
     padding: 15px 0;
     text-align: center;

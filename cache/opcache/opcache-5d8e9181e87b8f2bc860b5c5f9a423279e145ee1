@@ -1,9 +1,0 @@
-<?php $exp = 1772114497; $val = array (
-  'application' => 'crossrefReferenceLinking',
-  'class' => 'CrossrefReferenceLinkingPlugin',
-  'type' => 'plugins.generic',
-  'release' => '2.0.0.0',
-  'date' => '2023-07-17',
-  'lazy-load' => 1,
-  'sitewide' => 1,
-);

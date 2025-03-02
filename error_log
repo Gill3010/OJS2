@@ -5592,3 +5592,353 @@ View in rendered output by enabling the "displayErrorDetails" setting.
 [27-Feb-2025 14:10:46 UTC] ojs2: 404 Not Found
 [27-Feb-2025 14:25:51 UTC] ojs2: 404 Not Found
 [27-Feb-2025 14:26:23 UTC] ojs2: 404 Not Found
+[27-Feb-2025 15:21:54 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 15:21:54 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 15:41:45 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 15:41:45 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 15:42:37 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 15:42:37 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 15:42:40 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 15:42:40 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 15:42:47 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 15:42:47 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 15:44:47 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 15:44:47 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 15:58:51 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 15:58:51 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 16:01:31 UTC] ojs2: 404 Not Found
+[27-Feb-2025 16:33:51 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 16:33:51 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 16:50:38 UTC] Server host "mail.revistasrelatic.org" not allowed!
+[27-Feb-2025 16:50:38 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 16:54:07 UTC] PHP Deprecated:  Using php-function "implode" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier. in /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_compile_private_modifier.php on line 112
+[27-Feb-2025 17:58:48 UTC] ojs2: 404 Not Found
+[27-Feb-2025 18:06:19 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 18:06:19 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 18:49:48 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 18:49:48 UTC] ojs2: 400 Bad Request
+[27-Feb-2025 18:56:09 UTC] ojs2: 404 Not Found
+[27-Feb-2025 18:57:52 UTC] ojs2: 404 Not Found
+[27-Feb-2025 19:10:49 UTC] ojs2: 404 Not Found
+[27-Feb-2025 23:55:34 UTC] Server host "revistasrelatic.org" not allowed!
+[27-Feb-2025 23:55:34 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 00:08:16 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 00:08:16 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 04:31:25 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 04:31:25 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 05:29:58 UTC] ojs2: 404 Not Found
+[28-Feb-2025 06:27:46 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 06:27:46 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 06:27:59 UTC] ojs2: 404 Not Found
+[28-Feb-2025 06:52:03 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 06:52:03 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 10:49:25 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 10:49:25 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 11:21:19 UTC] ojs2: 404 Not Found
+[28-Feb-2025 11:52:17 UTC] Server host "REVISTASRELATIC.ORG" not allowed!
+[28-Feb-2025 11:52:17 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 11:55:12 UTC] ojs2: 404 Not Found
+[28-Feb-2025 12:05:43 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 12:05:43 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 12:07:28 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 12:07:28 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 12:17:00 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 12:17:00 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 14:33:35 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 14:33:35 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 14:33:36 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 14:33:36 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 14:33:39 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 14:33:39 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 14:33:41 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 14:33:41 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 15:28:21 UTC] ojs2: 404 Not Found
+[28-Feb-2025 16:27:09 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 16:27:09 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 17:00:00 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 17:00:00 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 18:06:21 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 18:06:21 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 18:06:22 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 18:06:22 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 18:10:32 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 18:10:32 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 18:37:25 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 18:37:25 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 18:51:29 UTC] Server host "mail.revistasrelatic.org" not allowed!
+[28-Feb-2025 18:51:29 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 20:04:20 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 20:04:20 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 21:02:48 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 21:02:48 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 21:03:52 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 21:03:52 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 22:35:42 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 22:35:42 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 22:35:43 UTC] Server host "revistasrelatic.org" not allowed!
+[28-Feb-2025 22:35:43 UTC] ojs2: 400 Bad Request
+[28-Feb-2025 22:49:02 UTC] ojs2: 404 Not Found
+[28-Feb-2025 23:41:27 UTC] ojs2: 404 Not Found
+[01-Mar-2025 00:01:04 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 00:01:04 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 00:09:54 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 00:09:54 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 02:06:13 UTC] ojs2: 404 Not Found
+[01-Mar-2025 02:06:49 UTC] ojs2: 404 Not Found
+[01-Mar-2025 02:08:27 UTC] ojs2: 404 Not Found
+[01-Mar-2025 02:57:08 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 02:57:08 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 03:34:25 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 03:34:25 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 03:52:42 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 03:52:42 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 06:54:27 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 06:54:27 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 07:22:12 UTC] Server host "REVISTASRELATIC.ORG" not allowed!
+[01-Mar-2025 07:22:12 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 10:05:12 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 10:05:12 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 11:13:27 UTC] ojs2: 404 Not Found
+[01-Mar-2025 13:08:51 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 13:08:51 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 13:19:31 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 13:19:31 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 15:02:41 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 15:02:41 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 17:06:04 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 17:06:04 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 17:46:41 UTC] ojs2: 404 Not Found
+[01-Mar-2025 18:09:21 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 18:09:21 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 18:19:01 UTC] ojs2: 404 Not Found
+[01-Mar-2025 20:34:13 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 20:34:13 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 22:04:58 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 22:04:58 UTC] ojs2: 400 Bad Request
+[01-Mar-2025 22:57:30 UTC] ojs2: 404 Not Found
+[01-Mar-2025 23:50:26 UTC] Server host "revistasrelatic.org" not allowed!
+[01-Mar-2025 23:50:26 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 00:09:16 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 00:09:16 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 00:23:17 UTC] Server host "REVISTASRELATIC.ORG" not allowed!
+[02-Mar-2025 00:23:17 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 01:23:31 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 01:23:31 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 02:56:38 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 02:56:38 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 03:27:28 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 03:27:28 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 03:57:04 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 03:57:04 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 04:21:51 UTC] ojs2: 404 Not Found
+[02-Mar-2025 05:07:57 UTC] ojs2: 404 Not Found
+[02-Mar-2025 07:01:52 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 07:01:52 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 09:38:41 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 09:38:41 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 10:20:16 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 10:20:16 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 10:33:30 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 10:33:30 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 10:55:08 UTC] ojs2: 404 Not Found
+[02-Mar-2025 11:20:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLocalizedName() on null in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php:50
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43eeac0e090_52799406()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^bd04826a47a63ab4c25ca20ffc3b42835fcab481_0.app.frontendpagesuserLogin.tpl.php(27): Smarty_Internal_Template->_subTemplateRender()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43eeabebc69_88120800()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1372): Smarty_Internal_TemplateBase->display()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/pages/login/LoginHandler.php(96): PKP\template\PKPTemplateManager->display()
+#12 [internal function]: PKP\pages\login\LoginHandler->index()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(334): call_user_func()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPPageRouter.php(278): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(165): PKP\core\PKPPageRouter->route()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#18 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php on line 50
+[02-Mar-2025 11:20:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLocalizedName() on null in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php:50
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43eeac0e090_52799406()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^bd04826a47a63ab4c25ca20ffc3b42835fcab481_0.app.frontendpagesuserLogin.tpl.php(27): Smarty_Internal_Template->_subTemplateRender()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43eeabebc69_88120800()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1372): Smarty_Internal_TemplateBase->display()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/pages/login/LoginHandler.php(96): PKP\template\PKPTemplateManager->display()
+#12 [internal function]: PKP\pages\login\LoginHandler->index()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(334): call_user_func()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPPageRouter.php(278): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(165): PKP\core\PKPPageRouter->route()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#18 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php on line 50
+[02-Mar-2025 11:20:23 UTC] ojs2: 404 Not Found
+[02-Mar-2025 11:20:35 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:20:35 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:20:43 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:20:43 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:20:52 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:20:52 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:20:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLocalizedName() on null in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php:50
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43eeac0e090_52799406()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^bd04826a47a63ab4c25ca20ffc3b42835fcab481_0.app.frontendpagesuserLogin.tpl.php(27): Smarty_Internal_Template->_subTemplateRender()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43eeabebc69_88120800()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1372): Smarty_Internal_TemplateBase->display()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/pages/login/LoginHandler.php(96): PKP\template\PKPTemplateManager->display()
+#12 [internal function]: PKP\pages\login\LoginHandler->index()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(334): call_user_func()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPPageRouter.php(278): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(165): PKP\core\PKPPageRouter->route()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#18 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php on line 50
+[02-Mar-2025 11:21:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLocalizedName() on null in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php:50
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43eeac0e090_52799406()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^bd04826a47a63ab4c25ca20ffc3b42835fcab481_0.app.frontendpagesuserLogin.tpl.php(27): Smarty_Internal_Template->_subTemplateRender()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43eeabebc69_88120800()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1372): Smarty_Internal_TemplateBase->display()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/pages/login/LoginHandler.php(96): PKP\template\PKPTemplateManager->display()
+#12 [internal function]: PKP\pages\login\LoginHandler->index()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(334): call_user_func()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPPageRouter.php(278): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(165): PKP\core\PKPPageRouter->route()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#18 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php on line 50
+[02-Mar-2025 11:21:14 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:21:14 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:21:22 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:21:22 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:21:29 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:21:29 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:21:30 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:21:30 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:21:47 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:21:47 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:21:48 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:21:48 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:22:28 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:22:28 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:22:34 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:22:34 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:22:40 UTC] Server host "revistasrelatic.org" not allowed!
+[02-Mar-2025 11:22:40 UTC] ojs2: 400 Bad Request
+[02-Mar-2025 11:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLocalizedName() on null in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/65bfc3e024c2e9104f46e23b73376a9455e3df0e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php:50
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43fa64954d3_88665565()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/65bfc3e024c2e9104f46e23b73376a9455e3df0e^51cfb9321c891ada9323e7942962579e7e4324d1_0.app.frontendpagesindexSite.tpl.php(28): Smarty_Internal_Template->_subTemplateRender()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43f4f836921_74324115()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1372): Smarty_Internal_TemplateBase->display()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/pages/index/IndexHandler.php(102): PKP\template\PKPTemplateManager->display()
+#12 [internal function]: APP\pages\index\IndexHandler->index()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(334): call_user_func()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPPageRouter.php(278): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(165): PKP\core\PKPPageRouter->route()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#18 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/65bfc3e024c2e9104f46e23b73376a9455e3df0e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php on line 50
+[02-Mar-2025 11:23:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLocalizedName() on null in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php:50
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43fa962a710_08732365()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^bd04826a47a63ab4c25ca20ffc3b42835fcab481_0.app.frontendpagesuserLogin.tpl.php(27): Smarty_Internal_Template->_subTemplateRender()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43f87598057_54790151()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1372): Smarty_Internal_TemplateBase->display()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/pages/login/LoginHandler.php(96): PKP\template\PKPTemplateManager->display()
+#12 [internal function]: PKP\pages\login\LoginHandler->index()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(334): call_user_func()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPPageRouter.php(278): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(165): PKP\core\PKPPageRouter->route()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#18 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/5a71aee81a1957c0f83ad98734054540f514140e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php on line 50
+[02-Mar-2025 11:23:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLocalizedName() on null in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/65bfc3e024c2e9104f46e23b73376a9455e3df0e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php:50
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43fa64954d3_88665565()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/65bfc3e024c2e9104f46e23b73376a9455e3df0e^51cfb9321c891ada9323e7942962579e7e4324d1_0.app.frontendpagesindexSite.tpl.php(28): Smarty_Internal_Template->_subTemplateRender()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43f4f836921_74324115()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1372): Smarty_Internal_TemplateBase->display()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/pages/index/IndexHandler.php(102): PKP\template\PKPTemplateManager->display()
+#12 [internal function]: APP\pages\index\IndexHandler->index()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(334): call_user_func()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPPageRouter.php(278): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(165): PKP\core\PKPPageRouter->route()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#18 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/65bfc3e024c2e9104f46e23b73376a9455e3df0e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php on line 50
+[02-Mar-2025 11:23:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLocalizedName() on null in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/65bfc3e024c2e9104f46e23b73376a9455e3df0e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php:50
+Stack trace:
+#0 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43fa64954d3_88665565()
+#1 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#2 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#3 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#4 /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/65bfc3e024c2e9104f46e23b73376a9455e3df0e^51cfb9321c891ada9323e7942962579e7e4324d1_0.app.frontendpagesindexSite.tpl.php(28): Smarty_Internal_Template->_subTemplateRender()
+#5 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_67c43f4f836921_74324115()
+#6 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#7 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#8 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#9 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#10 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/template/PKPTemplateManager.php(1372): Smarty_Internal_TemplateBase->display()
+#11 /home/zts5eyzr4hri/public_html/revistasrelatic.org/pages/index/IndexHandler.php(102): PKP\template\PKPTemplateManager->display()
+#12 [internal function]: APP\pages\index\IndexHandler->index()
+#13 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPRouter.php(334): call_user_func()
+#14 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPPageRouter.php(278): PKP\core\PKPRouter->_authorizeInitializeAndCallRequest()
+#15 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/Dispatcher.php(165): PKP\core\PKPPageRouter->route()
+#16 /home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/classes/core/PKPApplication.php(395): PKP\core\Dispatcher->dispatch()
+#17 /home/zts5eyzr4hri/public_html/revistasrelatic.org/index.php(21): PKP\core\PKPApplication->execute()
+#18 {main}
+  thrown in /home/zts5eyzr4hri/public_html/revistasrelatic.org/cache/t_compile/65bfc3e024c2e9104f46e23b73376a9455e3df0e^10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65_0.app.frontendcomponentsheader.tpl.php on line 50

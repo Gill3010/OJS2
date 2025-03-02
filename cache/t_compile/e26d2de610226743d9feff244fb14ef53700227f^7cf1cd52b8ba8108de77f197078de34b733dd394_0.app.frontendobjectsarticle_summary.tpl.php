@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-02-27 13:25:40
+/* Smarty version 4.3.1, created on 2025-03-02 11:32:46
   from 'app:frontendobjectsarticle_summary.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67c067d4d9be71_47382040',
+  'unifunc' => 'content_67c441dec7efe5_78477313',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/objects/galley_link.tpl' => 1,
   ),
 ),false)) {
-function content_67c067d4d9be71_47382040 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67c441dec7efe5_78477313 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('publication', $_smarty_tpl->tpl_vars['article']->value->getCurrentPublication());?>
 
 <?php $_smarty_tpl->_assignInScope('articlePath', (($tmp = $_smarty_tpl->tpl_vars['publication']->value->getData('urlPath') ?? null)===null||$tmp==='' ? $_smarty_tpl->tpl_vars['article']->value->getId() ?? null : $tmp));
