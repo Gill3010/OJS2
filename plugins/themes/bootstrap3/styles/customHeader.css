@@ -1,0 +1,53 @@
+/* Estilo del encabezado principal con color morado */
+#headerNavigationContainer {
+    background: linear-gradient(90deg, #68358C, #7A4A9D 35%, #FFFFFF 50%, #7A4A9D 65%, #68358C);
+    /* Morado uniforme */
+
+}
+
+/* Estilo para el logo */
+.navbar-brand-logo img {
+    width: 100%;
+    /* Ajusta el logo al 100% del contenedor */
+    height: auto;
+    /* Mantiene la relación de aspecto */
+    max-width: 250px;
+    /* Establece un tamaño máximo para el logo */
+}
+
+/* Establece un tamaño específico para el logo en pantallas más grandes */
+@media (min-width: 768px) {
+    .navbar-brand-logo img {
+        width: 200px;
+        /* Ajusta el tamaño del logo en pantallas medianas (tabletas) */
+        max-width: 200px;
+        /* Evita que se agrande más de lo esperado */
+    }
+}
+
+/* Establece otro tamaño para pantallas grandes */
+@media (min-width: 1200px) {
+    .navbar-brand-logo img {
+        width: 250px;
+        /* Ajusta el tamaño del logo en pantallas grandes (escritorio) */
+        max-width: 250px;
+        /* Evita que se agrande más de lo esperado */
+    }
+}
+
+/* Estilo para logo en pantallas pequeñas */
+@media (max-width: 576px) {
+    .navbar-brand-logo img {
+        width: 150px;
+        /* Ajusta el tamaño del logo en pantallas pequeñas (móviles) */
+        max-width: 150px;
+        /* Evita que se agrande más de lo esperado */
+    }
+}
+
+/* Cambiar el fondo del body a blanco */
+body {
+    background-color: #ffffff;
+    /* Color blanco */
+    color: #2d2e77;
+}

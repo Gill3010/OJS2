@@ -4,7 +4,7 @@
   array (
     0 => 
     array (
-      'className' => 'APP\\plugins\\importexport\\doaj\\DOAJInfoSender',
+      'className' => 'PKP\\task\\ReviewReminder',
       'frequency' => 
       array (
         'hour' => 24,
@@ -15,17 +15,6 @@
     ),
     1 => 
     array (
-      'className' => 'PKP\\task\\ReviewReminder',
-      'frequency' => 
-      array (
-        'hour' => 24,
-      ),
-      'args' => 
-      array (
-      ),
-    ),
-    2 => 
-    array (
       'className' => 'PKP\\task\\StatisticsReport',
       'frequency' => 
       array (
@@ -35,7 +24,7 @@
       array (
       ),
     ),
-    3 => 
+    2 => 
     array (
       'className' => 'APP\\tasks\\SubscriptionExpiryReminder',
       'frequency' => 
@@ -46,7 +35,7 @@
       array (
       ),
     ),
-    4 => 
+    3 => 
     array (
       'className' => 'PKP\\task\\DepositDois',
       'frequency' => 
@@ -57,7 +46,7 @@
       array (
       ),
     ),
-    5 => 
+    4 => 
     array (
       'className' => 'PKP\\task\\RemoveUnvalidatedExpiredUsers',
       'frequency' => 
@@ -68,7 +57,7 @@
       array (
       ),
     ),
-    6 => 
+    5 => 
     array (
       'className' => 'PKP\\task\\EditorialReminders',
       'frequency' => 
@@ -79,7 +68,7 @@
       array (
       ),
     ),
-    7 => 
+    6 => 
     array (
       'className' => 'PKP\\task\\UpdateIPGeoDB',
       'frequency' => 
@@ -90,7 +79,7 @@
       array (
       ),
     ),
-    8 => 
+    7 => 
     array (
       'className' => 'APP\\tasks\\UsageStatsLoader',
       'frequency' => 
@@ -101,7 +90,7 @@
       array (
       ),
     ),
-    9 => 
+    8 => 
     array (
       'className' => 'PKP\\task\\ProcessQueueJobs',
       'frequency' => 
@@ -112,7 +101,7 @@
       array (
       ),
     ),
-    10 => 
+    9 => 
     array (
       'className' => 'PKP\\task\\RemoveFailedJobs',
       'frequency' => 
@@ -123,7 +112,7 @@
       array (
       ),
     ),
-    11 => 
+    10 => 
     array (
       'className' => 'APP\\tasks\\OpenAccessNotification',
       'frequency' => 

@@ -3,12 +3,12 @@
 // -----------------------------------------------------
 
 .btn-shadow(@color) {
-  #gradient > .vertical-three-colors(lighten(@color, 6%), @color, 60%, darken(@color, 4%));
+  #gradient>.vertical-three-colors(lighten(@color, 6%), @color, 60%, darken(@color, 4%));
   filter: none;
 }
 
 .btn-shadow-inverse(@color) {
-  #gradient > .vertical-three-colors(darken(@color, 24%), darken(@color, 18%), 40%, darken(@color, 16%));
+  #gradient>.vertical-three-colors(darken(@color, 24%), darken(@color, 18%), 40%, darken(@color, 16%));
   filter: none;
 }
 
@@ -20,7 +20,7 @@
   border: 1px solid rgba(0, 0, 0, 0.6);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 
-  .navbar-nav > li > a {
+  .navbar-nav>li>a {
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -37,7 +37,7 @@
       background-color: @navbar-inverse-link-active-bg;
     }
 
-    .navbar-nav > li > a {
+    .navbar-nav>li>a {
 
       &:hover {
         .btn-shadow-inverse(@navbar-inverse-bg);
@@ -45,11 +45,11 @@
     }
   }
 
-  .nav .open > a {
+  .nav .open>a {
     border-color: transparent;
   }
 
-  &-nav > li.active > a {
+  &-nav>li.active>a {
     border-left-color: transparent;
   }
 
@@ -122,7 +122,12 @@
 
 // Typography =================================================================
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -176,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.table-responsive > .table {
+.table-responsive>.table {
   background-color: @table-bg;
 }
 
@@ -188,6 +193,7 @@ textarea {
 }
 
 .has-warning {
+
   .help-block,
   .control-label,
   .radio,
@@ -214,6 +220,7 @@ textarea {
 }
 
 .has-error {
+
   .help-block,
   .control-label,
   .radio,
@@ -240,6 +247,7 @@ textarea {
 }
 
 .has-success {
+
   .help-block,
   .control-label,
   .radio,
@@ -280,9 +288,9 @@ legend {
 
 .nav {
 
-  .open > a,
-  .open > a:hover,
-  .open > a:focus {
+  .open>a,
+  .open>a:hover,
+  .open>a:focus {
     border-color: rgba(0, 0, 0, 0.6);
   }
 
@@ -290,7 +298,7 @@ legend {
 
 .nav-pills {
 
-  & > li > a {
+  &>li>a {
     .btn-shadow(@btn-default-bg);
     border: 1px solid rgba(0, 0, 0, 0.6);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -301,23 +309,23 @@ legend {
     }
   }
 
-  & > li.active > a,
-  & > li.active > a:hover {
+  &>li.active>a,
+  &>li.active>a:hover {
     background-color: none;
     .btn-shadow-inverse(@btn-default-bg);
     border: 1px solid rgba(0, 0, 0, 0.6);
   }
 
-  & > li.disabled > a,
-  & > li.disabled > a:hover {
+  &>li.disabled>a,
+  &>li.disabled>a:hover {
     .btn-shadow(@btn-default-bg);
   }
 }
 
 .pagination {
 
-  & > li > a,
-  & > li > span {
+  &>li>a,
+  &>li>span {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
     .btn-shadow(@btn-default-bg);
 
@@ -326,15 +334,15 @@ legend {
     }
   }
 
-  & > li.active > a,
-  & > li.active > span {
+  &>li.active>a,
+  &>li.active>span {
     .btn-shadow-inverse(@btn-default-bg);
   }
 
-  & > li.disabled > a,
-  & > li.disabled > a:hover,
-  & > li.disabled > span,
-  & > li.disabled > span:hover {
+  &>li.disabled>a,
+  &>li.disabled>a:hover,
+  &>li.disabled>span,
+  &>li.disabled>span:hover {
     background-color: transparent;
     .btn-shadow(@btn-default-bg);
   }
@@ -342,7 +350,7 @@ legend {
 
 .pager {
 
-  & > li > a {
+  &>li>a {
     .btn-shadow(@btn-default-bg);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 
@@ -351,8 +359,8 @@ legend {
     }
   }
 
-  & > li.disabled > a,
-  & > li.disabled > a:hover {
+  &>li.disabled>a,
+  &>li.disabled>a:hover {
     background-color: transparent;
     .btn-shadow(@btn-default-bg);
   }

@@ -6,7 +6,6 @@
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * Site index.
- *
  *}
 {include file="frontend/components/header.tpl"}
 
@@ -78,3 +77,9 @@
 </div><!-- .page -->
 
 {include file="frontend/components/footer.tpl"}
+
+{* Incluir tu archivo CSS personalizado *}
+<link rel="stylesheet" href="{$base_url}/plugins/themes/bootstrap3/assets/css/styles.css">
+
+{* Incluir tu archivo JS personalizado *}
+<script src="{$base_url}/plugins/themes/bootstrap3/assets/js/scripts.js"></script>

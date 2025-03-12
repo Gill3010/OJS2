@@ -1,0 +1,39 @@
+/* Asegura que el carrusel ocupe el 100% del ancho disponible */
+#carouselExample {
+    width: 100%;
+    height: auto;
+}
+
+/* Ajusta las imágenes del carrusel para que se adapten al tamaño del contenedor */
+#carouselExample .carousel-inner .item img {
+    width: 100%;
+    /* Las imágenes se ajustan al 100% del contenedor */
+    height: auto;
+    /* Mantén la relación de aspecto de las imágenes */
+}
+
+/* Mejora la visibilidad de los controles en pantallas pequeñas */
+#carouselExample .carousel-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo oscuro para los controles */
+    width: 5%;
+    /* Controles más pequeños */
+}
+
+/* Estilo para los indicadores */
+#carouselExample .carousel-indicators li {
+    background-color: #fff;
+    /* Color blanco para los indicadores */
+}
+
+/* Ajuste para pantallas muy pequeñas */
+@media (max-width: 576px) {
+
+    /* Puedes reducir el tamaño de las imágenes en pantallas muy pequeñas si es necesario */
+    #carouselExample .carousel-inner .item img {
+        height: 200px;
+        /* Ejemplo de altura fija para pantallas pequeñas */
+        object-fit: cover;
+        /* Hace que la imagen cubra el espacio del contenedor */
+    }
+}

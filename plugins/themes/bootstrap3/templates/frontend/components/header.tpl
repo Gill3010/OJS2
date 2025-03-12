@@ -19,9 +19,18 @@
 {/if}
 
 <!DOCTYPE html>
-<html lang="{$currentLocale|replace:"_":"-"}" xml:lang="{$currentLocale|replace:"_":"-"}">
+<html lang="{$currentLocale|replace:"":"-"}" xml:lang="{$currentLocale|replace:"":"-"}">
 {if !$pageTitleTranslated}{capture assign="pageTitleTranslated"}{translate key=$pageTitle}{/capture}{/if}
 {include file="frontend/components/headerHead.tpl"}
+
+{if !$currentContext}
+    <link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customHeader.css">
+	<link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customFooter.css">
+	<link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customCarousel.css">
+{/if}
+
+<link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customJournalsHeader.css">
+
 <body class="pkp_page_{$requestedPage|escape|default:"index"} pkp_op_{$requestedOp|escape|default:"index"}{if $showingLogo} has_site_logo{/if}">
 	<div class="pkp_structure_page">
 
@@ -91,23 +100,26 @@
 					{load_menu name="primary" id="main-navigation" ulClass="nav navbar-nav"}
 				{/capture}
 
-				{if !empty(trim($primaryMenu)) || $currentContext}
-					<nav id="nav-menu" class="navbar-collapse collapse" aria-label="{translate|escape key="common.navigation.site"}">
-						{* Primary navigation menu for current application *}
-						{$primaryMenu}
-
-						{* Search form *}
-						{if $currentContext}
-							<div class="pull-md-right">
-								{include file="frontend/components/searchForm_simple.tpl"}
-							</div>
-						{/if}
-					</nav>
-				{/if}
-
 			</div><!-- .pkp_head_wrapper -->
 		</header><!-- .pkp_structure_head -->
-
+		{include file="frontend/components/carousel.tpl"}
+		{include file="frontend/components/bannerRevista.tpl"}
 		{* Wrapper for page content and sidebars *}
+		<div class="menu-container">
+    {if !empty(trim($primaryMenu)) || $currentContext}
+        <nav id="nav-menu" class="navbar-collapse collapse" aria-label="{translate|escape key="common.navigation.site"}">
+            {* Primary navigation menu for current application *}
+            {$primaryMenu}
+
+            {* Search form *}
+            {if $currentContext}
+                <div class="pull-md-right">
+                    {include file="frontend/components/searchForm_simple.tpl"}
+                </div>
+            {/if}
+        </nav>
+    {/if}
+</div>
+
 		<div class="pkp_structure_content container">
 			<main class="pkp_structure_main col-xs-12 col-sm-10 col-md-8" role="main">

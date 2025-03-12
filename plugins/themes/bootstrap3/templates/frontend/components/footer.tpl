@@ -9,7 +9,7 @@
  *
  * @uses $isFullWidth bool Should this page be displayed without sidebars? This
  *       represents a page-level override, and doesn't indicate whether or not
- *       sidebars have been configured for thesite.
+ *       sidebars have been configured for the site.
  *}
 
 	</main>

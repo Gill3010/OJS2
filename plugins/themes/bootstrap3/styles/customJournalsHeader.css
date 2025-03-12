@@ -1,0 +1,28 @@
+.menu-container {
+    display: flex;
+    /* Usa flexbox */
+    justify-content: center;
+    /* Centra los enlaces horizontalmente */
+    align-items: center;
+    /* Centra verticalmente (opcional) */
+    background-color: #2d2e77;
+    /* Color de fondo */
+    padding: 10px 0;
+    /* Espaciado superior e inferior */
+    color: white;
+    /* Color del texto */
+}
+
+.menu-container a {
+    color: white;
+    /* Asegura que los enlaces también sean blancos */
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces (opcional) */
+    margin: 0 15px;
+    /* Espaciado entre los enlaces */
+}
+
+.menu-container a:hover {
+    color: #ffcc00;
+    /* Color al pasar el mouse (opcional) */
+}

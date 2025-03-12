@@ -8,6 +8,12 @@
     /* Espaciado interno */
     text-align: center;
     /* Centrado de contenido */
+    width: 100vw;
+    /* Ocupa el 100% del ancho de la ventana */
+    box-sizing: border-box;
+    /* Incluye el padding en el ancho total */
+    margin: 0;
+    /* Elimina márgenes que puedan reducir el área */
 }
 
 /* Personalización del pie de página */
