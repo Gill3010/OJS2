@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-11 23:37:24
+/* Smarty version 4.3.1, created on 2025-03-14 15:53:36
   from 'app:frontendobjectsissue_toc.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d0c9343da3f5_76510139',
+  'unifunc' => 'content_67d451002ce3e9_37178799',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '26de9c47ced54328a8eb56e39bb4d4079aa049c6' => 
     array (
       0 => 'app:frontendobjectsissue_toc.tpl',
-      1 => 1740105946,
+      1 => 1741801572,
       2 => 'app',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/objects/article_summary.tpl' => 1,
   ),
 ),false)) {
-function content_67d0c9343da3f5_76510139 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d451002ce3e9_37178799 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="issue-toc">
 
 		<?php if (!$_smarty_tpl->tpl_vars['issue']->value->getPublished()) {?>

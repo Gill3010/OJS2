@@ -1,0 +1,23 @@
+.publication-details-container {
+    background: linear-gradient(135deg, #1B5E20, #00E5FF);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+.publication-details-container .list-group-item {
+    border: none;
+    padding: 0.5rem 0;
+}
+
+.publication-details-container strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.date-published,
+.date-updated {
+    margin-bottom: 0.5rem;
+}

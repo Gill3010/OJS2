@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-12 05:47:23
+/* Smarty version 4.3.1, created on 2025-03-14 18:22:25
   from 'app:frontendcomponentscarousel.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d11feb26b819_35102868',
+  'unifunc' => 'content_67d473e1d46346_11766267',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0d8c679babed1fe4b8384a8b380b051ebbde3110' => 
     array (
       0 => 'app:frontendcomponentscarousel.tpl',
-      1 => 1741304791,
+      1 => 1741963675,
       2 => 'app',
     ),
   ),
@@ -20,12 +20,29 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67d11feb26b819_35102868 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d473e1d46346_11766267 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
 /plugins/themes/bootstrap3/styles/customCarousel.css">
+
 <?php if (!$_smarty_tpl->tpl_vars['currentContext']->value) {?>
-    <!-- Carrusel visible solo en el portal -->
+    <!-- Carrusel -->
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000">
+        
+        <!-- Formulario de búsqueda centrado -->
+        <div class="search-overlay">
+            <form class="navbar-form" role="search" method="post" action="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0], array( array('page'=>"search",'op'=>"search"),$_smarty_tpl ) );?>
+">
+                <div class="form-group">
+                    <input class="form-control" name="query" value="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['searchQuery']->value ));?>
+" type="search" 
+                           aria-label="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"common.searchQuery"),$_smarty_tpl ) ) ));?>
+" placeholder="Buscar...">
+                </div>
+                <button type="submit" class="btn btn-default"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"common.search"),$_smarty_tpl ) );?>
+</button>
+            </form>
+        </div>
+
         <!-- Indicadores -->
         <ol class="carousel-indicators">
             <li data-target="#carouselExample" data-slide-to="0" class="active"></li>

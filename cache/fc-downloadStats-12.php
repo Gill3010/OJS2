@@ -5,7 +5,7 @@
     array (
       'date' => '2025-03',
       'label' => 'marzo 2025',
-      'value' => 0,
+      'value' => '3',
     ),
   ),
 );

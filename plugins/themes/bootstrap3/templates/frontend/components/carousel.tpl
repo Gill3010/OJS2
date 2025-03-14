@@ -1,7 +1,20 @@
 <link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customCarousel.css">
+
 {if !$currentContext}
-    <!-- Carrusel visible solo en el portal -->
+    <!-- Carrusel -->
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000">
+        
+        <!-- Formulario de búsqueda centrado -->
+        <div class="search-overlay">
+            <form class="navbar-form" role="search" method="post" action="{url page="search" op="search"}">
+                <div class="form-group">
+                    <input class="form-control" name="query" value="{$searchQuery|escape}" type="search" 
+                           aria-label="{translate|escape key="common.searchQuery"}" placeholder="Buscar...">
+                </div>
+                <button type="submit" class="btn btn-default">{translate key="common.search"}</button>
+            </form>
+        </div>
+
         <!-- Indicadores -->
         <ol class="carousel-indicators">
             <li data-target="#carouselExample" data-slide-to="0" class="active"></li>

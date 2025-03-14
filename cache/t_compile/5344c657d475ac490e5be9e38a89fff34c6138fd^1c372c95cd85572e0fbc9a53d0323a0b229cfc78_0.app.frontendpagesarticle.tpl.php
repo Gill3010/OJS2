@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-12 05:47:23
+/* Smarty version 4.3.1, created on 2025-03-14 18:22:25
   from 'app:frontendpagesarticle.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d11feb206a93_59261779',
+  'unifunc' => 'content_67d473e1d024e9_23815002',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_67d11feb206a93_59261779 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d473e1d024e9_23815002 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pageTitleTranslated'=>call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'strip_unsafe_html' ][ 0 ], array( $_smarty_tpl->tpl_vars['article']->value->getCurrentPublication()->getLocalizedFullTitle(null,'html') ))), 0, false);
 ?>
 

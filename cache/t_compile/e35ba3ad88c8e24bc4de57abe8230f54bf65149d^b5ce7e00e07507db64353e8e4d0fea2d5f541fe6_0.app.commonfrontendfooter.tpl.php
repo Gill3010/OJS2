@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-11 23:36:35
+/* Smarty version 4.3.1, created on 2025-03-14 17:54:58
   from 'app:commonfrontendfooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d0c9038b0c93_77364445',
+  'unifunc' => 'content_67d46d727c5d05_57731398',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_67d0c9038b0c93_77364445 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d46d727c5d05_57731398 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('brandImage', "templates/images/ojs_brand.png");
 $_smarty_tpl->_assignInScope('packageKey', "common.software");
 $_smarty_tpl->_assignInScope('pkpLink', "http://pkp.sfu.ca/ojs");

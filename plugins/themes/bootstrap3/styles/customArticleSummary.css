@@ -1,0 +1,112 @@
+/* Estilos para el contenedor de los artículos */
+.article-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+/* Estilos para la tarjeta del artículo */
+.card {
+    width: 100%;
+    /* Por defecto, la tarjeta ocupa el 100% de su contenedor */
+    max-width: 350px;
+    /* Tamaño máximo de la tarjeta */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    flex: 1;
+    /* Las tarjetas ocupan el mismo espacio proporcional */
+}
+
+/* Estilo para la imagen de portada del artículo */
+.card img {
+    width: 100%;
+    height: 250px;
+    /* Aumenté la altura de la imagen */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para el contenido dentro de la tarjeta */
+.card-body {
+    padding: 15px;
+}
+
+/* Título del artículo */
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Estilo para el subtítulo del artículo */
+.card p small {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Estilo para los autores */
+.card .authors {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Estilo para las páginas del artículo */
+.card .pages {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Estilos para los botones de los galley */
+.card .btn-group {
+    margin-top: 15px;
+}
+
+/* Botones de enlace de galley */
+.card .btn-group .btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn-group .btn:hover {
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+/* Responsividad para las tarjetas */
+@media (min-width: 768px) {
+    .card {
+        width: 48%;
+        /* 2 tarjetas por fila en pantallas medianas */
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 60%;
+        /* 1.6 tarjetas por fila en pantallas grandes */
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        width: 70%;
+        /* 1.4 tarjetas por fila en pantallas muy grandes */
+    }
+}
+
+@media (max-width: 767px) {
+    .article-summary {
+        display: block;
+        /* Las tarjetas se muestran en una sola columna en pantallas pequeñas */
+    }
+}

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-12 01:31:49
+/* Smarty version 4.3.1, created on 2025-03-14 18:22:44
   from 'plugins-9-plugins-generic-pdfJsViewer-generic-pdfJsViewer:submissionGalley.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d0e4054f1977_61829898',
+  'unifunc' => 'content_67d473f489aae6_84158696',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67d0e4054f1977_61829898 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d473f489aae6_84158696 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', "pdfUrl", null);
 if ($_smarty_tpl->tpl_vars['isLatestPublication']->value) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0], array( array('op'=>"download",'path'=>call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'to_array' ][ 0 ], array( $_smarty_tpl->tpl_vars['bestId']->value,$_smarty_tpl->tpl_vars['galley']->value->getBestGalleyId($_smarty_tpl->tpl_vars['currentJournal']->value),$_smarty_tpl->tpl_vars['galleyFile']->value->getId() )),'escape'=>false),$_smarty_tpl ) );

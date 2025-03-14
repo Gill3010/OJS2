@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-12 01:31:49
+/* Smarty version 4.3.1, created on 2025-03-14 18:22:44
   from 'plugins-9-plugins-generic-pdfJsViewer-generic-pdfJsViewer:display.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d0e405525161_94721709',
+  'unifunc' => 'content_67d473f48b9f91_97230819',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67d0e405525161_94721709 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d473f48b9f91_97230819 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 ?>
 <!DOCTYPE html>

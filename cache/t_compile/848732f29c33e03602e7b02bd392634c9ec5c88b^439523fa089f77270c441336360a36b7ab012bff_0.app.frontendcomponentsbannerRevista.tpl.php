@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-11 23:37:24
+/* Smarty version 4.3.1, created on 2025-03-14 15:53:36
   from 'app:frontendcomponentsbannerRevista.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d0c9343b1a31_42172172',
+  'unifunc' => 'content_67d4510029eb93_51871868',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67d0c9343b1a31_42172172 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d4510029eb93_51871868 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['currentContext']->value) {?>
     <!-- Banner visible solo en la revista -->
     <div class="revista-banner">

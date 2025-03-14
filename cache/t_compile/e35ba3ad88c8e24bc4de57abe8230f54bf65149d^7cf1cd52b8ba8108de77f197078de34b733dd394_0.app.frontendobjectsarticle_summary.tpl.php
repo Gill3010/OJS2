@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-11 23:36:35
+/* Smarty version 4.3.1, created on 2025-03-14 17:54:58
   from 'app:frontendobjectsarticle_summary.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d0c9038613c4_88340795',
+  'unifunc' => 'content_67d46d72778f72_64332576',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7cf1cd52b8ba8108de77f197078de34b733dd394' => 
     array (
       0 => 'app:frontendobjectsarticle_summary.tpl',
-      1 => 1740105946,
+      1 => 1741876145,
       2 => 'app',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/objects/galley_link.tpl' => 1,
   ),
 ),false)) {
-function content_67d0c9038613c4_88340795 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d46d72778f72_64332576 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('publication', $_smarty_tpl->tpl_vars['article']->value->getCurrentPublication());
 $_smarty_tpl->_assignInScope('articlePath', $_smarty_tpl->tpl_vars['article']->value->getBestId($_smarty_tpl->tpl_vars['currentJournal']->value));
 if ((!$_smarty_tpl->tpl_vars['section']->value['hideAuthor'] && $_smarty_tpl->tpl_vars['article']->value->getHideAuthor() == \APP\submission\Submission::AUTHOR_TOC_DEFAULT) || $_smarty_tpl->tpl_vars['article']->value->getHideAuthor() == \APP\submission\Submission::AUTHOR_TOC_SHOW) {?>
@@ -114,6 +114,5 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
 	<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['call_hook'][0], array( array('name'=>"Templates::Issue::Issue::Article"),$_smarty_tpl ) );?>
 
-</div><!-- .article-summary -->
-<?php }
+</div><!-- .article-summary --><?php }
 }

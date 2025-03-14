@@ -4462,6 +4462,14 @@
 			<certification type="official" />
 			<description>This releases fixes bugs in citation display, article previews, and date formatting on the article details page.</description>
 		</release>
+		<release date="2025-03-12" version="3.5.0.0" md5="d54840d0dbd64ac5c78ec545d6fc39e1">
+			<package>https://github.com/pkp/bootstrap3/releases/download/v3_5_0-0/bootstrap3-v3_5_0-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0-x.</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="classic">
 		<name locale="en">Classic</name>
@@ -4609,6 +4617,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2025-03-12" version="1.1.3.0" md5="a541c66cf3954e61161bffbe426e9036">
+			<package>https://github.com/pkp/classic/releases/download/v1_1_3-0/classic-v1_1_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.5.0</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="healthSciences">
@@ -4779,6 +4795,14 @@
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
 		</release>
+		<release date="2025-03-13" version="1.1.3.0" md5="7135fb79fba6fb5779b95bf7e402b1d3">
+			<package>https://github.com/pkp/healthSciences/releases/download/v1_1_3-0/healthSciences-v1_1_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.5.0</description>
+		</release>
 	</plugin>
 	<plugin category="themes" product="defaultManuscript">
 		<name locale="en">Manuscript (Default child theme)</name>
@@ -4870,6 +4894,14 @@
 			</compatibility>
 			<certification type="official" />
 			<description>Compatibility with 3.4.0 version.</description>
+		</release>
+		<release date="2025-03-13" version="1.0.5.0" md5="4295270440bbc3bb96e62eebb09f99a2">
+			<package>https://github.com/pkp/defaultManuscript/releases/download/v1_0_5-0/defaultManuscript-v1_0_5-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official" />
+			<description>Compatibility release for OJS 3.5.0.</description>
 		</release>
 	</plugin>
 	<plugin category="themes" product="material">
@@ -5477,6 +5509,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2025-03-13" version="1.1.3.0" md5="1a3fb044cbd8812a7fe3eb43bd4a12e5">
+			<package>https://github.com/pkp/immersion/releases/download/v1_1_3-0/immersion-v1_1_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.5.0</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="orcidProfile">
@@ -10315,6 +10355,14 @@
 			</compatibility>
 			<certification type="official"/>
 			<description>Bugfix release for OJS 3.4.0</description>
+		</release>
+		<release date="2025-03-13" version="1.1.3.0" md5="1db700cc4d2b0f83144b0f06a8d1a45c">
+			<package>https://github.com/pkp/pragma/releases/download/v1_1_3-0/pragma-v1_1_3-0.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="official"/>
+			<description>Compatibility release for OJS 3.5.0</description>
 		</release>
 	</plugin>
 	<plugin category="importexport" product="archivematicaExport">

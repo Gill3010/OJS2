@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-12 05:47:23
+/* Smarty version 4.3.1, created on 2025-03-14 18:22:25
   from 'app:frontendcomponentsheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d11feb241937_88284711',
+  'unifunc' => 'content_67d473e1d24b84_56820516',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '10ae5578a0959129b8d4ceeb9f99c1bb2a9cbd65' => 
     array (
       0 => 'app:frontendcomponentsheader.tpl',
-      1 => 1741735205,
+      1 => 1741965903,
       2 => 'app',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/searchForm_simple.tpl' => 1,
   ),
 ),false)) {
-function content_67d11feb241937_88284711 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d473e1d24b84_56820516 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 ?>
 
@@ -54,8 +54,15 @@ $_smarty_tpl->_subTemplateRender("app:frontend/components/headerHead.tpl", $_sma
 /plugins/themes/bootstrap3/styles/customCarousel.css">
 <?php }?>
 
-<link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+<?php if ($_smarty_tpl->tpl_vars['currentJournal']->value) {?>
+    <link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
 /plugins/themes/bootstrap3/styles/customJournalsHeader.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/plugins/themes/bootstrap3/styles/customArticleSummary.css">
+<?php }?>
+
+<link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/plugins/themes/bootstrap3/styles/customArticleDetails.css">
 
 <body class="pkp_page_<?php echo (($tmp = call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['requestedPage']->value )) ?? null)===null||$tmp==='' ? "index" ?? null : $tmp);?>
  pkp_op_<?php echo (($tmp = call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['requestedOp']->value )) ?? null)===null||$tmp==='' ? "index" ?? null : $tmp);

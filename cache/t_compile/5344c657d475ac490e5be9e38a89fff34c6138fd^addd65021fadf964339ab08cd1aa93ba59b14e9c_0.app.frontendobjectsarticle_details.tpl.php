@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-12 05:47:23
+/* Smarty version 4.3.1, created on 2025-03-14 18:22:25
   from 'app:frontendobjectsarticle_details.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d11feb2dd4c6_23958526',
+  'unifunc' => 'content_67d473e1db8260_13719756',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'addd65021fadf964339ab08cd1aa93ba59b14e9c' => 
     array (
       0 => 'app:frontendobjectsarticle_details.tpl',
-      1 => 1740105946,
+      1 => 1741880617,
       2 => 'app',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/objects/galley_link.tpl' => 2,
   ),
 ),false)) {
-function content_67d11feb2dd4c6_23958526 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d473e1db8260_13719756 (Smarty_Internal_Template $_smarty_tpl) {
 ?><article class="article-details">
 
 		<?php if ($_smarty_tpl->tpl_vars['currentPublication']->value->getId() !== $_smarty_tpl->tpl_vars['publication']->value->getId()) {?>
@@ -502,6 +502,5 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 		</div><!-- .col-md-8 -->
 	</div><!-- .row -->
 
-</article>
-<?php }
+</article><?php }
 }

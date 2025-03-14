@@ -1,39 +1,89 @@
 /* Asegura que el carrusel ocupe el 100% del ancho disponible */
 #carouselExample {
     width: 100%;
-    height: auto;
+    max-width: 100%;
 }
 
-/* Ajusta las imágenes del carrusel para que se adapten al tamaño del contenedor */
+/* Hacer que las imágenes del carrusel sean responsivas y un poco más altas */
 #carouselExample .carousel-inner .item img {
     width: 100%;
-    /* Las imágenes se ajustan al 100% del contenedor */
     height: auto;
-    /* Mantén la relación de aspecto de las imágenes */
+    /* Mantener la relación de aspecto */
+    max-height: 600px;
+    /* Establecer una altura máxima mayor para que sean un poco más altas */
+    object-fit: cover;
+    /* Asegura que las imágenes cubran el área sin distorsionarse */
 }
 
-/* Mejora la visibilidad de los controles en pantallas pequeñas */
-#carouselExample .carousel-control {
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Fondo oscuro para los controles */
-    width: 5%;
-    /* Controles más pequeños */
-}
-
-/* Estilo para los indicadores */
-#carouselExample .carousel-indicators li {
+/* Indicadores de carrusel (circulares) */
+.carousel-indicators li {
     background-color: #fff;
     /* Color blanco para los indicadores */
 }
 
-/* Ajuste para pantallas muy pequeñas */
-@media (max-width: 576px) {
+/* Hacer que los controles del carrusel se ajusten de manera responsive */
+.carousel-control {
+    font-size: 30px;
+    /* Ajusta el tamaño de las flechas */
+    color: rgba(255, 255, 255, 0.5);
+    /* Color para las flechas */
+}
 
-    /* Puedes reducir el tamaño de las imágenes en pantallas muy pequeñas si es necesario */
-    #carouselExample .carousel-inner .item img {
-        height: 200px;
-        /* Ejemplo de altura fija para pantallas pequeñas */
-        object-fit: cover;
-        /* Hace que la imagen cubra el espacio del contenedor */
+.carousel-control:hover {
+    color: rgba(255, 255, 255, 0.9);
+    /* Color al pasar el ratón */
+}
+
+/* Estilo adicional para los controles en pantallas pequeñas */
+@media (max-width: 768px) {
+    .carousel-control {
+        font-size: 20px;
+        /* Reducir el tamaño de las flechas en dispositivos pequeños */
+    }
+}
+
+/* Estilo para pantallas muy pequeñas */
+@media (max-width: 576px) {
+    .carousel-inner {
+        /* Ajustar las imágenes o su contenedor para pantallas más pequeñas */
+        min-height: 200px;
+        /* Establece una altura mínima para el carrusel */
+    }
+
+    .carousel-control {
+        font-size: 15px;
+        /* Aún más pequeño en pantallas muy pequeñas */
+    }
+}
+
+/* Formulario centrado en el carrusel */
+.search-overlay {
+    position: absolute;
+    /* Superposición */
+    top: calc(50% + 75px);
+    /* Mitad del contenedor + 20px más abajo */
+    left: 50%;
+    /* Mitad del ancho */
+    transform: translate(-50%, -50%);
+    /* Centrado exacto */
+    z-index: 999;
+    /* Por encima del carrusel */
+    background: transparent;
+    /* Fondo totalmente transparente */
+    padding: 20px 30px;
+    /* Espaciado interno */
+    border-radius: 12px;
+    /* Bordes redondeados */
+    box-shadow: none;
+    /* Eliminar la sombra */
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .search-overlay {
+        width: 90%;
+        /* Más ancho en pantallas pequeñas */
+        padding: 10px 20px;
+        /* Ajustar espaciado */
     }
 }

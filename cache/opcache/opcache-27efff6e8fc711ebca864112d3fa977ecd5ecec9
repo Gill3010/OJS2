@@ -1,0 +1,9 @@
+<?php $exp = 1773411541; $val = array (
+  'application' => 'immersion',
+  'class' => 'ImmersionThemePlugin',
+  'type' => 'plugins.themes',
+  'release' => '1.1.2.3',
+  'date' => '2024-08-12',
+  'lazy-load' => 1,
+  'sitewide' => 0,
+);

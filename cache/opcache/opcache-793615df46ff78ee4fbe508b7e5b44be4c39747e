@@ -1,0 +1,9 @@
+<?php $exp = 1773415308; $val = array (
+  'application' => 'keywordCloud',
+  'class' => 'KeywordCloudBlockPlugin',
+  'type' => 'plugins.blocks',
+  'release' => '2.1.0.0',
+  'date' => '2024-10-14',
+  'lazy-load' => 1,
+  'sitewide' => 0,
+);

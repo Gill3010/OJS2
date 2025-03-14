@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-03-11 23:37:24
+/* Smarty version 4.3.1, created on 2025-03-14 15:53:36
   from 'app:frontendpagesindexJournal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67d0c93437b862_38990303',
+  'unifunc' => 'content_67d45100220660_34646369',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e64e579388e5615e11e939b12134d6ae8679eba6' => 
     array (
       0 => 'app:frontendpagesindexJournal.tpl',
-      1 => 1741429166,
+      1 => 1741876902,
       2 => 'app',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_67d0c93437b862_38990303 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67d45100220660_34646369 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/zts5eyzr4hri/public_html/revistasrelatic.org/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pageTitleTranslated'=>$_smarty_tpl->tpl_vars['currentJournal']->value->getLocalizedName()), 0, false);
 ?>

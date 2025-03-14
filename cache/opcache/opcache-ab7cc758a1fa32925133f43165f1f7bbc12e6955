@@ -1,0 +1,9 @@
+<?php $exp = 1773495232; $val = array (
+  'application' => 'customHeader',
+  'class' => 'CustomHeaderPlugin',
+  'type' => 'plugins.generic',
+  'release' => '1.0.4.1',
+  'date' => '2023-03-31',
+  'lazy-load' => 1,
+  'sitewide' => 0,
+);

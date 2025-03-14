@@ -29,7 +29,12 @@
 	<link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customCarousel.css">
 {/if}
 
-<link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customJournalsHeader.css">
+{if $currentJournal}
+    <link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customJournalsHeader.css">
+	<link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customArticleSummary.css">
+{/if}
+
+<link rel="stylesheet" type="text/css" href="{$baseUrl}/plugins/themes/bootstrap3/styles/customArticleDetails.css">
 
 <body class="pkp_page_{$requestedPage|escape|default:"index"} pkp_op_{$requestedOp|escape|default:"index"}{if $showingLogo} has_site_logo{/if}">
 	<div class="pkp_structure_page">
